@@ -1,1 +1,20 @@
+# 防止 .env 文件被访问
+<FilesMatch "^\.env$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
 
+# 阻止 app 目录直接访问
+RewriteRule ^app/ - [F,L]
+
+# 阻止日志文件访问
+<Files "log.txt">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# 默认重写至 public 目录（假设部署时支持Rewrite）
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/$1 [L]
