@@ -6,3 +6,5 @@ payload:
 - DOMAIN-KEYWORD,kohls
 - DOMAIN-KEYWORD,wyo
 - DOMAIN-KEYWORD,walmart
+- IP-CIDR,165.227.0.0/16
+- DOMAIN-KEYWORD,2a2y.com
