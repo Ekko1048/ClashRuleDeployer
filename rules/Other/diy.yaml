@@ -7,7 +7,6 @@ payload:
 - DOMAIN-KEYWORD,wyo
 - DOMAIN-KEYWORD,walmart
 - IP-CIDR,165.227.0.0/16
-- DOMAIN-KEYWORD,2a2y.com
 - DOMAIN-KEYWORD,3ue.com
 - DOMAIN-KEYWORD,udirc.com
 - DOMAIN-KEYWORD,traxxas.com
@@ -23,7 +22,6 @@ payload:
 - DOMAIN-KEYWORD,redcatracing.com
 - DOMAIN-KEYWORD,rcscrewz.com
 - DOMAIN-KEYWORD,wpecomus.com
-- DOMAIN-KEYWORD,zikily.com
 - DOMAIN-KEYWORD,vikingsword.top
 - DOMAIN-KEYWORD,burga.com
 - DOMAIN-KEYWORD,casetify.com
